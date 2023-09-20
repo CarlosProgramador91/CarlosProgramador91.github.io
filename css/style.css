@@ -172,11 +172,11 @@ el que este en ultimo lugar*/
 
 /*HERO*/
 .hero {
-    background-image: url(../images/hero.jpg);
+    background-image: url(../img/enproceso.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    height: 450px;
-    position: relative;
+    height: 700px;
+    position: initial;
     margin-bottom: 2rem;
 }
 
