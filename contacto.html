@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="es"> <!--"poner el idioma: Español"-->
+<head>
+    <meta charset="UTF-8"> <!--Codifico de -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carlos Gómez Casas -- Portafolios -- </title>
+    <!--Para que cargue mas rapido la pagina web "rel = preload"-->
+    <link rel="preload" href="css/normalize.css">
+    <!--Para que en todos los navegadores web se vea de la misma forma-->
+    <!--Nota: Cada vez que cambie de version cambia archivo-->
+    <!--<link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">-->
+    <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/contacto.css">
+    
+</head>
+<body>
+    <header>
+        <h1 class="titulo">Carlos Gómez Casas <span> Portafolios </span></h1>
+    </header>
+
+    <div class="nav-bg">
+        <nav class="navegacion_principal contenedor">
+            <a href="index.html">Inicio</a>
+            <a href="./freelander final/index.html">Proyecto Freenlander</a>
+            <a href="./FrontEndStore_inicio/index.html">Camisetas Lenguajes</a>
+            <a href="#">Otros Proyectos</a>
+            <a href="#">Contacto</a>
+        </nav>
+    </div> 
+    <!-- Esto es una barra de navegacion ya que hay varios-->
+    <section class="hero">
+        <div class="contenido-hero">     
+            <h2 class="">Para Mas informacion...</h2>            
+            <a class="boton" href="#">Contact</a>
+            <!-- No es recomendable ponerlo con mayusculas, ya que lo haremos con CSS-->
+        </div>
+    </section>
+
+    <main class="contenedor sombra"> <!-- Lo consideramos con un contenido principal -->           
+        <section> <!-- Ya que dentro tendremo un formulario-->
+            <h2>Contacto</h2>
+            <form class="formulario">
+                <fieldset>
+                   <legend>Contactanos para mas información:</legend> 
+                   <div class="contenedor-campos"> 
+                        <div class="campo">
+                            <label>Nombre: </label> 
+                            <input class="input-text"  type="text" placeholder=" Tu Nombre"> 
+                        </div>
+                        
+                        <div class="campo">
+                            <label>Teléfono: </label> 
+                            <input class="input-text" type="tel" placeholder=" Tu Telefono">
+                        </div>
+                        
+                        <div class="campo">
+                            <label>Correo: </label> 
+                            <input class="input-text" type="email" placeholder=" Tu Correo Electronico">  
+                        </div>
+
+                        <div class="campo">
+                            <label>Mensaje: </label> 
+                            <textarea class="input-text"></textarea>
+                        </div>
+                    </div> <!-- Contenedor de los campos-->
+                        <div class="alinear-derecha flex">
+                            <button class="boton w-sm-100" type="submit" value="Enviar">Enviar</button>
+                        </div> 
+                           
+                </fieldset>
+            </form>
+        </section>
+    </main>        
+        <footer class="footer"> <!--Ya que es la parte de abajo siendo la mas importante para poner la información legal y demas cosas -->
+            <p>Todos los derechos reservados. Carlos Gómez Casas</p>
+        </footer> 
+</body>
+</html>
